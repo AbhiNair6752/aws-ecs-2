@@ -2,6 +2,6 @@ version: "3.0"
 
 services:
   user-api:
-    build: /user-api
+    build: ./user-api
     ports:
       - "8080:8080"
