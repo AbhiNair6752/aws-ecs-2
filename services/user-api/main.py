@@ -48,4 +48,4 @@ def delete_user(user_id: int):
     if idx is None:
         raise HTTPException(status_code=404,detail="User Not Found")
     users_db.pop(idx)
-    return {"Message": "user deleted successfully"}
+    return {"Message": "user has been deleted successfully"}
